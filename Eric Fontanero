@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Fontanero - Pàgina Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px;
+            background-color: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        nav {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e9ecef;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            margin-top: 30px;
+            border-top: 2px solid #e0e0e0;
+        }
+        .destacat {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="destacat">Benvingut/da a la pàgina d'<span style="color: #2980b9;">Eric Fontanero</span></h1>
+    </header>
+
+    <nav>
+        <a href="#inici">Inici</a> |
+        <a href="#projectes">Projectes</a> |
+        <a href="#contacte">Contacte</a>
+    </nav>
+
+    <section id="inici">
+        <h2>Sobre mi</h2>
+        <p>Hola! Sóc Eric Fontanero, un apassionat del desenvolupament web i la tecnologia.</p>
+        <h3>Habilitats:</h3>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>Disseny web</li>
+            <li>Optimització SEO</li>
+        </ul>
+    </section>
+
+    <section id="projectes">
+        <h2>Els meus projectes</h2>
+        <article>
+            <h3>Projecte 1</h3>
+            <p>Descripció del primer projecte destacat.</p>
+        </article>
+        <article>
+            <h3>Projecte 2</h3>
+            <p>Descripció del segon projecte rellevant.</p>
+        </article>
+    </section>
+
+    <section id="contacte">
+        <h2>Contacta amb mi</h2>
+        <form>
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="missatge">Missatge:</label><br>
+            <textarea id="missatge" name="missatge" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Enviar missatge" style="background-color: #2980b9; color: white; padding: 10px 20px; border: none; border-radius: 4px;">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2023 Eric Fontanero. Tots els drets reservats.</p>
+        <p>Xarxes socials: 
+            <a href="#" style="color: #2980b9;">LinkedIn</a> | 
+            <a href="#" style="color: #2980b9;">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
